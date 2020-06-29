@@ -1,0 +1,6 @@
+chcp 1252
+psql -U postgres postgres
+psql
+set search_path=placement;
+\cd G:/himanshu/SQLPrograms
+\i placement.sql
